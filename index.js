@@ -114,9 +114,11 @@ function handleCardClick(event) {
   if (centerCard.contains(card) && card.classList.contains("white-card")) {
     userHand.appendChild(card)
     card.classList.add("hand-card")
+    card.classList.remove("white-center-card")
   } else if (centerCard.childElementCount <= BlackCard.pick && card.classList.contains("white-card")) {
     centerCard.appendChild(card)
     card.classList.remove("hand-card")
+    card.classList.add("white-center-card")
     card.style.transform = "scale(0)"
     setTimeout(() => {
       card.style.transform = "scale(1)"

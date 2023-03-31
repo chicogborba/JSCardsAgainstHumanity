@@ -35,34 +35,24 @@ body {
     background-color: #000;
     color: #fff;
     border-radius: 10px;
-    border-width: 0.2rem;
+    border-width: 0.1rem;
     border-style: solid;
     border-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 10px;
     text-align: left;
     font-family: arial;
-    font-size: medium;
-    width: 7rem;
-    height: 10rem;
+    font-size: small;
+    width: 5rem;
+    height: 8rem;
 }
 
 .white-center-card {
-    background-color: #fff;
-    color: #000;
-    border-radius: 10px;
-    border-width: 0.2rem;
-    border-style: solid;
-    border-color: #000;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: left;
-    font-family: arial;
-    font-size: medium;
-    width: 7rem;
-    height: 10rem;
-    transition: all 0.3s ease-in-out;
-    margin-left: -75px;
+    padding: 10px !important;
+    border-width: 0.1rem !important;
+    font-size: small !important;
+    width: 5rem !important;
+    height: 8rem !important;
 }
 
 .white-card {
@@ -113,7 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .line-counter {

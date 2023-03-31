@@ -2,7 +2,7 @@ body {
     background-color: #5f5b5b;
     height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 5rem;
     font-family: arial;
     font-size: 1.5rem;
     color: #fff;
@@ -12,6 +12,10 @@ body {
     align-items: center;
 }
 
+p {
+    margin: 0;
+    max-width: 40rem;
+}
 .button{
     background-color: #603333;
     color: #fff;

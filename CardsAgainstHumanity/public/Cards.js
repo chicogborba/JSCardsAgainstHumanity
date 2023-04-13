@@ -1,4 +1,4 @@
-class Cards {
+export default class Cards {
   #blackCards = [];
   #whiteCards = [];
   constructor (whiteCards, blackCards) {

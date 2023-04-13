@@ -1,4 +1,4 @@
-class Player {
+export default class Player {
   #name = "";
   #id = 0;
   #hand = [];
